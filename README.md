@@ -1,11 +1,8 @@
-# CoastSat
-[![GitHub release](https://img.shields.io/github/release/kvos/CoastSat)](https://GitHub.com/kvos/CoastSat/releases/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2779293.svg)](https://doi.org/10.5281/zenodo.2779293)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# CoastSat- Shoreline Segmentation & Classification
 
-CoastSat is an open-source software toolkit written in Python that enables users to obtain time-series of shoreline position at any coastline worldwide from 30+ years (and growing) of publicly available satellite imagery.This Repo is an attempt for reimplementing and working on the brilliant work done by [Killian Dos](https://github.com/kvos/CoastSat).
 
-### - Visit the Website 👉🏻 : [CoastSat](http://coastsat.wrl.unsw.edu.au/) 
+CoastSat is an open-source software toolkit written in Python that enables users to obtain time-series of shoreline position at any coastline worldwide from 30+ years (and growing) of publicly available satellite imagery.
+
 
 ## Project description
 
@@ -17,7 +14,7 @@ The toolbox has four main functionalities:
 2. automated extraction of shorelines from all the selected images using a sub-pixel resolution technique.
 3. intersection of the 2D shorelines with user-defined shore-normal transects.
 4. tidal correction using measured water levels and an estimate of the beach slope.
-5. post-processing of the shoreline time-series, despiking and seasonal averaging.
+5. post-processing of the shoreline time series, despiking and seasonal averaging.
 6. validation example at Narrabeen
 
 
@@ -25,8 +22,6 @@ The toolbox has four main functionalities:
 
 ![Alt text](https://github.com/kvos/CoastSat/blob/master/doc/example.gif)
 
-
-- Visit the Website here 👉🏻 : [CoastSat website](http://coastsat.wrl.unsw.edu.au/) 
 
 ## 1. Installation
 
